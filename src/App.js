@@ -1,8 +1,13 @@
 import './App.css';
+import Nav from "./Nav";
+import Hero from "./Hero";
 
 function App() {
   return (
-    <h1>hello</h1>
+    <div>
+      <Nav/>
+      <Hero/>
+    </div>
   );
 }
 

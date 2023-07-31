@@ -1,0 +1,26 @@
+.navContent{
+    background-color: #21222A;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+.logo {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.logoName{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #61DAFB;
+}
+
+.tagline {
+    color: #DEEBF8;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+}
