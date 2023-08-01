@@ -1,7 +1,10 @@
 .heroContent {
     padding: 4rem;
     background-color: #282D35;
-
+    background-image: url("./reactjs-icon\ 2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 90%;
 }
 
 h2 {
@@ -18,7 +21,7 @@ ul {
 }
 
 ul li {
-    list-style: none;
+    /* list-style: none; */
     font-family: "inter",sans-serif;
     color: white;
     font-weight: 300;
@@ -26,12 +29,17 @@ ul li {
     margin-block: 0.7rem;
 }
 
-ul li::before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #61DAFB; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
+/* ul li::before {
+    content: "\2022"; 
+    color: #61DAFB; 
+    font-weight: bold; 
     font-size: 1.5rem;
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 2rem; /* Also needed for space (tweak if needed) */
-    margin-left: -2rem; /* Also needed for space (tweak if needed) */
-  }
+    display: inline-block; 
+    width: 2rem; 
+    margin-left: -2rem; 
+  } */
+
+ul li::marker{
+    font-size: 1.5rem;
+    color: #61DAFB;
+}  
