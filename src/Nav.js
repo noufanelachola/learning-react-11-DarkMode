@@ -9,6 +9,11 @@ const Nav = () => {
                 <p className="logoName">ReactFacts</p>
             </div>
             <p className="tagline">React Course - Project 1</p>
+
+            <div className="toggleBtn">
+                <input type="checkbox" className="toggle" id="check"/>
+                <label htmlFor="check">check</label>
+            </div>
         </div>
     );
 }
