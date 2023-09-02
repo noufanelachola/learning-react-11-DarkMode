@@ -1,16 +1,16 @@
 import React from "react";
 import "./Hero.css";
 
-const Hero = () => {
+const Hero = ({darkMode}) => {
     return(
-        <div className="heroContent">
-            <h2>Fun facts about React</h2>
+        <div className={darkMode ? "heroContent dark" : "heroContent"}>
+            <h2 className={darkMode ? "dark" : ""}>Fun facts about React</h2>
             <ul>
-                <li>Was first released in 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has well over 100k stars on GitHub</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, incuding <br/> mobile apps</li>
+                <li className={darkMode ? "dark" : ""}>Was first released in 2013</li>
+                <li className={darkMode ? "dark" : ""}>Was originally created by Jordan Walke</li>
+                <li className={darkMode ? "dark" : ""}>Has well over 100k stars on GitHub</li>
+                <li className={darkMode ? "dark" : ""}>Is maintained by Facebook</li>
+                <li className={darkMode ? "dark" : ""}>Powers thousands of enterprise apps, incuding <br/> mobile apps</li>
             </ul>
         </div>
     );

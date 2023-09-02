@@ -4,6 +4,9 @@
     justify-content: space-between;
     padding: 2rem 3rem;
 }
+.navContent.dark {
+    background-color: white;
+}
 
 .logo {
     display: flex;
@@ -19,10 +22,13 @@
     color: #61DAFB;
 }
 
-.tagline {
+.tagLine {
     color: #DEEBF8;
     font-family: 'Inter', sans-serif;
     font-size: 0.75rem;
+}
+.tagLine.dark {
+    color: black;
 }
 
 .toggleBtn {
