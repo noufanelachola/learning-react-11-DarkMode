@@ -1,8 +1,13 @@
+
 .navContent{
     background-color: #21222A;
     display: flex;
     justify-content: space-between;
     padding: 2rem 3rem;
+    box-shadow: 5px 0px 10px 10px rgba(0, 0, 0, 0.034);
+
+    position: relative;
+    z-index: 150;
 }
 .navContent.dark {
     background-color: white;
@@ -60,6 +65,7 @@ input[type="checkbox"].toggle + label::before{
     width: 2rem;
     height: 1rem;
     border-radius: 2rem;
+    outline: 0.1rem solid rgb(0, 0, 0); 
 }
 input[type="checkbox"].toggle + label::after{
     content: "";
